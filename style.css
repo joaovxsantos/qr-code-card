@@ -7,6 +7,7 @@
   outline: none;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
+  font-size: 15px;
 }
 
 body {
@@ -18,39 +19,30 @@ body {
   min-height: 100vh;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: hsl(0, 0%, 100%);
-  width: 260px;
-  height: 380px;
-  border-radius: 10px;
-}
-
-.container-picture img {
-  margin-top: 1rem;
-  width: 220px;
-  border-radius: 10px;
-  height: 200px;
-}
-
-.container-text {
-  display: flex;
-  flex-direction: column;
+.card-qr {
+  background-color: #fff;
+  max-width: 301px;
   padding: 1rem;
+  border-radius: 10px;
 }
 
-.container-text h2 {
-  font-size: 18px;
+.card-qr img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card-text {
+  padding: 1rem;
   text-align: center;
+}
+
+.card-text h2 {
+  margin-bottom: 1rem;
+  font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
 
-.container-text p {
-  font-size: 13px;
-  text-align: center;
+.card-text p {
   font-weight: 400;
-  margin-top: 1rem;
   color: hsl(220, 15%, 55%);
 }
